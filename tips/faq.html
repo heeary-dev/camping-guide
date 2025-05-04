@@ -21,6 +21,27 @@
 
   <main>
     <section>
+        <h2>질문을 제출해주세요</h2>
+        <p>캠핑에 대해 궁금한점이 있으시다면 편하게 남겨주세요!!</p>    
+        <form action="/submit-question" method="post">
+            <label for="username">Name:</label>
+           <input type="text" id="username" name="user_name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="user_email">
+
+            <label for="qusetion">Your Question:</label>
+            <textarea id="qusetion" name="user_question" rows="4" cols="40">Write your qusetion</textarea>    
+
+            <br>
+            <input type="checkbox" id="agree" name="content" value="yes">
+            <label for="agree">개인정보 이용에 동의합니다</label>
+
+            <br>
+            <input type="submit" value="제출">
+        </form>
+    </section>
+    <section>
       <h2>자주 묻는 질문</h2>
       <ul>
         <li>텐트는 어떤 기준으로 선택하나요?</li>
