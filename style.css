@@ -1,0 +1,37 @@
+/* 기본 폰트 및 배경 설정 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 제목 스타일 */
+#main-title {
+    color: #2c3e50;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* 내비게이션 스타일 */
+.main-nav {
+    text-align: center;
+    margin: 10px;
+}
+.main-nav a {
+    color: #2980b9;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+/* 소개 문단 */
+.intro-text {
+    text-align: center;
+    font-size: 18px;
+    margin: 40px 20px;
+}
