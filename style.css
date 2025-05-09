@@ -1,20 +1,17 @@
 /* 기본 폰트 및 배경 설정 */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-    margin: 0;
-    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+    line-height: 1.6;
 }
 
 /* 제목 스타일 */
 #main-title {
-    color: #2c3e50;
-    font-size: 32px;
+    font-size: 36px;
+    color: #2d3436;
     text-align: center;
-    margin-top: 30px;
-    padding: 10px;
-    border: 2px solid #2c3e50;
+    margin-top: 40px;
 }
 
 /* 내비게이션 스타일 */
@@ -28,33 +25,30 @@ body {
     margin-right: auto;
 }
 .main-nav a {
-    color: #2980b9;
-    text-decoration: none;
-    margin: 0 15px;
-    padding: 5px;
-    border: 1px solid transparent;
+    font-size: 18px;
+    padding: 8px 12px;
+    background-color: #dfe6e9;
+    border-radius: 5px;
+    display: inline-block;
 }
 .main-nav a:hover {
-    text-decoration: underline;
-    border: 1px solid #2980b9
+    background-color: #b2bec3;
+    color: #fff;
 }
-
 /* 소개 문단 */
 .intro-text {
-    text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     background-color: #ffffff;
-    margin: 40px auto;
-    padding: 20px;
-    width: 60%;
-    border: 1px solid #333;
-}
+    color: #444;
+    padding: 25px;
+    text-align: justify;
+  }
  
 /* 꼬릿말 */
 footer {
-    background-color: #e9ecef;
+    font-size: 14px;
+    color: #555;
+    background-color: #ecf0f1;
     text-align: center;
-    padding: 20px;
-    margin-top: 50px;
-    border-top: 2px solid #ccc;
+    padding: 15px;
 }
