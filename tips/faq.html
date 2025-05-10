@@ -1,81 +1,28 @@
+<!-- tips/faq.html -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>캠핑 FAQ - 캠린이 사용설명서</title>
+  <title>캠핑 FAQ</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-
   <header>
-    <h1>캠린이 사용설명서</h1>
+    <h1 id="main-title">캠핑 가이드에 오신 걸 환영합니다</h1>
+    <nav class="main-nav">
+      <a href="../index.html">홈</a> |
+      <a href="../gear/summer.html">여름 캠핑</a> |
+      <a href="../food/seasonal.html">캠핑 요리</a> |
+      <a href="../sites/beginner.html">추천 캠핑장</a>
+    </nav>
   </header>
-
-  <nav>
-    <ul>
-      <li><a href="/index.html">홈</a></li>
-      <li><a href="/gear/summer.html">여름 준비물</a></li>
-      <li><a href="/food/seasonal.html">계절별 요리</a></li>
-      <li><a href="/sites/beginner.html">초보자 캠핑장</a></li>
-    </ul>
-  </nav>
-
   <main>
-
-    <section>
-        <h2>질문을 제출해주세요</h2>
-        <p>캠핑에 대해 궁금한점이 있으시다면 편하게 남겨주세요!!</p>    
-        <form action="/submit-question" method="post">
-            <label for="username">Name:</label>
-           <input type="text" id="username" name="user_name">
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="user_email">
-
-            <label for="qusetion">Your Question:</label>
-            <textarea id="qusetion" name="user_question" rows="4" cols="40">Write your qusetion</textarea>    
-
-            <br>
-            <input type="checkbox" id="agree" name="content" value="yes">
-            <label for="agree">개인정보 이용에 동의합니다</label>
-
-            <br>
-            <input type="submit" value="제출">
-        </form>
+    <section class="intro-text">
+      <p>자주 묻는 질문: 비 오는 날엔 텐트에 방수포를 꼭 덮어주세요. 물기 제거용 수건도 챙기세요.</p>
     </section>
-
-    <section>
-        <h2>문의자 정보입력</h2>
-        <form action="/sibmit-question" method="post">
-            <label for="name">이름</label>
-            <input type="text" id="name" name="user_name" required><br>
-            
-            <label for="email">이메일</label>
-            <input type="email" id="email" name="user_email" required><br>
-
-            <label for="birth">생년월일</label>
-            <input type="date" id="birtf" name="user_birth"><br><br>
-
-            <button type-="submit">
-                <img src="send-icon.png" alt="제출" width="30">
-                제출하기
-            </button>
-            </form>
-    </section>
-
-    <section>
-      <h2>자주 묻는 질문</h2>
-      <ul>
-        <li>텐트는 어떤 기준으로 선택하나요?</li>
-        <li>비 올 때 어떻게 대처하나요?</li>
-        <li>전기 없이도 가능한 장비는?</li>
-      </ul>
-    </section>
-
   </main>
-
   <footer>
-    <p>&copy; 2025 캠린이 사용설명서</p>
+    <p>&copy; 2025 캠린이. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
