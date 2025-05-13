@@ -64,3 +64,26 @@ footer {
 footer p {
   margin: 5px 0;
 }
+
+/* 계절별 장비 추천 CSS */
+.gear-flex {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.gear-container {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.gear-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    width: 30%;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.01);
+    box-sizing: border-box;
+}
